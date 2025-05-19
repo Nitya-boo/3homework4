@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+header {
+  padding: 10px 0px;
+  border-bottom: 2px gray;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-brand img {
+  width: 10%;
+  height: 10%;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+
+  /* gap: 5px; */
+}
+.nav-iterm {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+
+  /* font-weight: bold; */
+  /* padding: 0px 10px; */
+}
+
+.Account {
+  display: flex;
+  /* gap: 10px; */
+}
+
+/* .sign-up, .log-in {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+} */
+
+.sign-up {
+  text-decoration: none;
+  padding: 5px 30px;
+  margin: 0px 10x;
+  border: 1px solid #00aaff;
+  color: #00aaff;
+}
+
+.log-in {
+  text-decoration: none;
+  padding: 5px 20px;
+  margin: 0px 10px;
+  background-color: #00aaff;
+  color: white;
+}
+
+section {
+  height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 160px);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.motivate {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.support {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.provide {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.improving {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.motivate,
+.support,
+.improving,
+.provide {
+  width: 280px;
+  height: 160px;
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.motivate {
+  background-color: #33aadd;
+}
+
+.support {
+  background-color: #e02424;
+}
+
+.improving {
+  background-color: #f4a300;
+  color: #000;
+}
+
+.provide {
+  background-color: #001f70;
+}
+
+.img-motivate img {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 10px;
+}
